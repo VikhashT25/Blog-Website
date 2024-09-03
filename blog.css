@@ -15,32 +15,6 @@ body {
   background: #5b5b5b;
 }
 
-section {
-  position: relative;  
-  width: 90%; /* Use percentage instead of fixed width */
-  max-width: 1075px; /* Add max-width to limit expansion */
-  display: flex;
-  align-items: center;
-  height: auto; /* Allow height to adjust dynamically */
-}
-
-.swiper {
-  width: 80%; /* Change to relative width */
-  max-width: 950px;
-}
-
-@media (max-width: 768px) {
-  section {
-    flex-direction: column; /* Stack items vertically on smaller screens */
-    height: auto; /* Allow height to adjust dynamically */
-  }
-
-  .swiper {
-    width: 100%; /* Full width on smaller screens */
-  }
-}
-
-
 .body {
   margin:auto;
   font-family: montserrat;
@@ -248,5 +222,33 @@ a.active,a:hover{
       
     }
  }
+
+section {
+  position: relative;  
+  width: 90%; /* Use percentage instead of fixed width */
+  max-width: 1075px; /* Add max-width to limit expansion */
+  display: flex;
+  align-items: center;
+  height: auto; /* Allow height to adjust dynamically */
+}
+
+.swiper {
+  width: 80%; /* Change to relative width */
+  max-width: 950px;
+}
+
+@media (max-width: 768px) {
+  section {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    height: auto; /* Allow height to adjust dynamically */
+  }
+
+  .swiper {
+    width: 100%; /* Full width on smaller screens */
+  }
+}
+
+
+
 
 
