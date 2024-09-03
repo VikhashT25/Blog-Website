@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +5,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body {
+.body {
   min-height: 100vh; /* Use min-height instead of fixed height */
   display: flex;
   align-items: center;
@@ -15,16 +13,13 @@ body {
   background: #5b5b5b;
 }
 
-.body {
-  margin:auto;
-  font-family: montserrat;
-  color: #f1eded;
-}
-.body{
-  padding: 100px;
-  background-color: white;
-  color: black;
-  font-size: 10px;
+section {
+  position: relative;  
+  width: 90%; /* Use percentage instead of fixed width */
+  max-width: 1075px; /* Add max-width to limit expansion */
+  display: flex;
+  align-items: center;
+  height: auto; /* Allow height to adjust dynamically */
 }
 
 .dark-mode{
@@ -67,16 +62,7 @@ height: 30px;
   }
 }
 
-*{
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
-}
-body{
-  font-family: montserrat;
-  }
+
 nav{
   background: #0082e6;
   height: 80px;
@@ -160,21 +146,7 @@ a.active,a:hover{
     left: 0;
   }
 }
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'Times New Roman', Times, serif;
-}
- .container{
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(0,0,0,0.4);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: 100% 100%;
- }
+
  .content{
    text-align: center;
  }
@@ -222,16 +194,6 @@ a.active,a:hover{
       
     }
  }
-
-section {
-  position: relative;  
-  width: 90%; /* Use percentage instead of fixed width */
-  max-width: 1075px; /* Add max-width to limit expansion */
-  display: flex;
-  align-items: center;
-  height: auto; /* Allow height to adjust dynamically */
-}
-
 .swiper {
   width: 80%; /* Change to relative width */
   max-width: 950px;
@@ -246,9 +208,6 @@ section {
   .swiper {
     width: 100%; /* Full width on smaller screens */
   }
-}
-
-
 
 
 
